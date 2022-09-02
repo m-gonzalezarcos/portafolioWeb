@@ -1,0 +1,330 @@
+ /* Integración de google font open sans y oswald */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Oswald:wght@300;400;700&display=swap');
+/* Incorporación de propiedad scroll-behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Comienzo de nav */
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+}
+.nav-item {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.nav-item:hover {
+    background-color:#dd5428 !important;
+    color: #fff;
+    transition: 0.8s all;
+}
+
+.nav-item a:hover {
+    color: #dedede !important;
+}
+/* Cierre de nav */
+
+/* Comienzo de aside */
+.imagen-principal .imagen {
+    background-image: url('../img/migue.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 500px; 
+}
+
+.imagen-principal .container .texto {
+   background-color: #dd5428 !important;
+}
+
+.imagen-principal .container .texto .yo-soy {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-top: 135px !important;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.imagen-principal .container .texto .disenador {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #000;  
+}
+
+.imagen-principal .container .texto .aptitudes {
+    font-family: 'Open sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    padding-top: 20px;
+}
+/* Cierre de aside */
+
+/* Comienzo de sección sobre mi */
+.sobre-mi h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+}
+.sobre-mi .col-6 {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+}
+
+.sobre-mi p {
+    margin-bottom: 0;   
+}
+
+span {
+    color: #000000;
+    font-weight: 500;
+}
+/* Cierre de sección sobre mi */
+
+/* Comienzo de sección competencias */
+/* .competencias h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.nombre h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+} */
+/* Cierre de sección competencias
+
+/* Comienzo de sección habilidades */
+.skill {
+    background-color: #dd5428;
+}
+
+.conocimientos {
+    margin: 5% auto;
+}
+
+.conocimientos h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.habilidades img {
+    width: 100%;
+    max-width: 150px; 
+}
+/* Cierre de sección habilidades */
+
+/* comienzo sección portafolio front end */
+.proyectoFront h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* cierre portafolio front end */
+
+/* Comienzo de sección portafolio ux ui */
+.cartera {
+    background-color: #dd5428;
+}
+
+.proyectos {
+    margin: 5% auto;
+}
+
+.proyectos h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.proyectos h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.card-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.card-text {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+}
+
+.card-text .btn {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;   
+}
+
+.card-text .btn:hover {
+    opacity: 0.7;
+    transition: 0.3s all;
+}
+/* cierre sección portafolio ux ui */
+
+/* comienzo trabajos independientes */
+.tIndependientes {
+    background-color: #dd5428;
+}
+
+.trabajos {
+    margin: 5% auto;
+}
+
+.trabajos h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* .trabajos h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+} */
+/* cierre seccion trabajos independientes */
+
+/* comienzo footer */
+.nombre h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+/* cierre footer  */
+
+/* Comienzo de modal sección mis trabajos 
+.modal-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+*/
+
+modal-footer .btn {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+}
+/* Cierre de modal sección mis trabajos */
+
+/* COMIENZO CONSULTA DE MEDIOS CELULARES */
+@media (max-width: 576px) {
+.imagen-principal .container .texto .yo-soy {
+    font-size: 2.5em;
+    padding-top: 15px !important;
+}
+}
+
+@media (min-width: 576px) {
+.nav-item:hover {
+    cursor: none;
+    background-color: transparent;
+}
+
+.imagen-principal .container .texto .yo-soy {
+    font-size: 2.5em;
+    padding-top: 15px !important;
+}
+    
+.texto-imagen .miguel {
+    font-size: 2em;      
+}
+
+.sobre-mi h2 {
+    font-size: 1em;
+}
+
+.conocimientos .habilidades-basicas {
+    text-align: center;
+}
+
+/* .imagen-diseños {
+    margin-bottom: 3%;
+} */
+
+.card-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+}
+}
+/* CIERRE CONSULTA DE MEDIOS CELULARES */
+
+/* MEDIUM DEVICES (tablets, 768px and up)*/
+@media (min-width: 768px) {
+.nav-item:hover {
+    cursor: none;
+    background-color: transparent;
+}
+
+.imagen-principal .container .texto .yo-soy {
+    font-size: 1.7em;
+    padding-top: 95px !important; 
+}
+
+.imagen-principal .container .texto .disenador {
+    font-size: 1.7em;
+}
+
+.texto-imagen .miguel {
+    font-size: 2.3em;      
+}
+
+.sobre-mi h2 {
+    font-size: 1.3em;
+}
+
+/* .imagen-diseños {
+    margin-bottom: 3%;
+} */
+
+.card-title {
+    font-size: 1.2em;
+}
+}
+/* CIERRE MEDIUM DEVICES 768px */
+
+/* LARGE DEVICES (desktops, 992px and up)*/
+@media (min-width: 992px) {
+.imagen-principal .container .texto .yo-soy {
+    font-size: 2.4em;
+    padding-top: 115px !important;
+}
+
+.imagen-principal .container .texto .disenador {
+    font-size: 2.4em;
+}
+
+.imagen-principal .container .texto .aptitudes {
+    text-align: left;
+}
+    
+.texto-imagen .miguel {
+    font-size: 2.5em;      
+}
+
+.sobre-mi h2 {
+    font-size: 1.5em;
+}
+
+/* .imagen-diseños {
+    margin-bottom: 3%;
+} */
+
+.card-title {
+    font-size: 1.5em;
+}
+}
+/* CIERRE LARGUE DEVICES */
