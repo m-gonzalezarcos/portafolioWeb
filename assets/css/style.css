@@ -115,10 +115,16 @@ span {
     text-decoration: underline;
 }
 
-.habilidades img {
-    width: 100%;
-    max-width: 150px; 
+.habilidades i {
+    font-size: 130px;
+    color:#000;
 }
+
+.habilidades img {
+    max-width: 130px;
+    width: 100%;
+}
+
 /* Cierre de sección habilidades */
 
 /* comienzo sección portafolio front end */
